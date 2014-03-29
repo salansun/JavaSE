@@ -13,6 +13,10 @@ public class Human {
         this.sex = sex;
     }
 
+    public Human() {
+        this.name = "lisi";
+    }
+
     //    域
     String name;
     int age;
