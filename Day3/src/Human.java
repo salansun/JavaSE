@@ -1,6 +1,5 @@
 //类 = 域 + 方法
 //class = field(s) + method(s)
-//交通工具
 public class Human {
 
     //    域
