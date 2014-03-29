@@ -2,12 +2,15 @@
 //class = field(s) + method(s)
 public class Human {
 
-    Human(String s, int i, double d1, double d2, char c) {
-        name = s;
-        age = i;
-        weight = d1;
-        height = d2;
-        sex = c;
+//Alt+Insert
+
+//    constructor
+    public Human(String name, int age, double weight, double height, char sex) {
+        this.name = name;
+        this.age = age;
+        this.weight = weight;
+        this.height = height;
+        this.sex = sex;
     }
 
     //    域
@@ -17,6 +20,9 @@ public class Human {
     double height;
     char sex;//m, f
 
+    T t;
+
+
 
     //    方法
     void study(int i, double d, String s) {
@@ -24,12 +30,20 @@ public class Human {
     }
 
     void work() {
-
+        System.out.println(name + " is working...");
     }
 
-    String exam(int i) {
-        i = 1;
-        return "passed";
+    String exam(int grade) {
+        if (grade >= 60) {
+            return "passed";
+
+        } else {
+            return "failed";
+        }
 
     }
+}
+
+class T {
+    int i;
 }
