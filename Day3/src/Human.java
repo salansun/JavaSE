@@ -14,7 +14,7 @@ public class Human {
     }
 
     public Human() {
-        this.name = "lisi";
+//        this.name = "lisi";
     }
 
     //    域

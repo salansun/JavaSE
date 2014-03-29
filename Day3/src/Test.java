@@ -14,10 +14,12 @@ public class Test {
 
         Chinese zhangsan = new Chinese("李四", 20, 70, 1.8, 'm', "zhu");
 //        System.out.println(zhangsan.name);
-        System.out.println(zhangsan.shengxiao);//?
+        zhangsan.work();
 
 
-//        System.out.println(zhangsan instanceof Human);
+//        Human human = new Human();
+
+//        System.out.println(human instanceof Chinese);
     }
 }
 
