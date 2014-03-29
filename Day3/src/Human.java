@@ -1,5 +1,6 @@
 //类 = 域 + 方法
 //class = field(s) + method(s)
+//test...
 public class Human {
 
     //    域
