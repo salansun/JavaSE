@@ -34,6 +34,10 @@ public class Human {
     }
 
     String exam(int grade) {
+        int i = 10;
+
+        T t = new T();
+
         if (grade >= 60) {
             return "passed";
 
