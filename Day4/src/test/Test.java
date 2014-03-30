@@ -22,7 +22,7 @@ public class Test {
 //        FQCN Fully Qualified Class Name 全限定类名
         cn.edu.tsinghua.training.javase.day4.demo.test.Test test = new cn.edu.tsinghua.training.javase.day4.demo.test.Test();
 
-        System.out.println(Math.pow(2, 30));
+//        System.out.println(Math.pow(2, 30));
 
 
 //        Scanner scanner = new Scanner(System.in);
@@ -30,20 +30,28 @@ public class Test {
 //        int n = scanner.nextInt();
 //        System.out.println(n);
 
-        String s = "hello";
-        System.out.println(s);
+//        String s = "hello";
+//        System.out.println(s);
+//
+//        double d = -1.234;
+//        System.out.println((d > 0)?d:-d);
+//
+//        Test t = new Test();
+//        System.out.println(t);
+//    }
+//
+//    @Override
+//    public String toString() {
+//        return "Test{" +
+//                "i=" + i +
+//                '}';
 
-        double d = -1.234;
-        System.out.println((d > 0)?d:-d);
-
-        Test t = new Test();
-        System.out.println(t);
-    }
-
-    @Override
-    public String toString() {
-        return "Test{" +
-                "i=" + i +
-                '}';
+        DivideTest divideTest = new DivideTest(10, 1);
+//        divideTest.x = 10;
+//        divideTest.y = 0;
+//        divideTest.setX(10);
+//        divideTest.setY(0);
+        divideTest.divide();
+        System.out.println(divideTest.getX());
     }
 }

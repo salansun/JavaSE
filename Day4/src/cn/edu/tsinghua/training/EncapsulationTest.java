@@ -30,5 +30,6 @@ public class EncapsulationTest {
         EncapsulationTest encapsulationTest = new EncapsulationTest();
         System.out.println(encapsulationTest.d);
         encapsulationTest.b();
+        encapsulationTest.c();
     }
 }

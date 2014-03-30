@@ -6,8 +6,14 @@ import cn.edu.tsinghua.training.EncapsulationTest;
 /**
  * Created by Administrator on 14-3-30.
  */
-public class Test {
-    public static void main(String[] args) {
-        EncapsulationTest encapsulationTest = new EncapsulationTest();
-    }
+public class Test extends EncapsulationTest {
+//    public static void main(String[] args) {
+////        EncapsulationTest encapsulationTest = new EncapsulationTest();
+////        encapsulationTest.c();
+////        encapsulationTest.b;
+//
+//        Test test = new Test();
+//        System.out.println(test.b);
+//        test.c();
+//    }
 }
