@@ -16,7 +16,7 @@ public class Test {
     private int i;
 
     public static void main(String[] args) {
-        PackageTest p = new PackageTest();
+//        PackageTest p = new PackageTest();
         PackageTest2 p2 = new PackageTest2();
 
 //        FQCN Fully Qualified Class Name 全限定类名
