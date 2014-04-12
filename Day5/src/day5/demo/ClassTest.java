@@ -27,13 +27,29 @@ public class ClassTest {
 
     }
 
-    private int i;
-    private double d;
-    private boolean b;
 
-    public void method() {
+    public void method(int y) {
 
+        int i = 100;
+        System.out.println(this.i);//1
+
+        System.out.println(b);
+        test(y);
+        int x = 1;
+
+        for (int j = 0; j < 10; j++) {
+            System.out.println(j);
+        }
+
+        for (int j = 0; j < 100; j++) {
+            System.out.println(j);
+        }
+        int j = 10;
+
+
+//        String x = "";
     }
+    private int i = 1;
 
     public int test(int i) {
         return i;
@@ -42,4 +58,6 @@ public class ClassTest {
     private static class T {//Inner Class
 
     }
+    private double d;
+    private boolean b;
 }
