@@ -1,4 +1,4 @@
-import com.sun.jndi.url.dns.dnsURLContext;
+package day5.demo;
 
 /**
  * Created by Administrator on 14-4-12.
