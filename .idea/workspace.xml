@@ -12,17 +12,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b904d5ac-6305-4cfe-a480-1941584abd28" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AndroidDemo/AndroidDemo.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Day5/src/day5/demo/ClassTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AndroidDemo/res/drawable-hdpi/ic_launcher.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AndroidDemo/res/drawable-ldpi/ic_launcher.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AndroidDemo/res/drawable-mdpi/ic_launcher.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AndroidDemo/res/drawable-xhdpi/ic_launcher.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AndroidDemo/AndroidManifest.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AndroidDemo/gen/com/example/AndroidDemo/BuildConfig.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AndroidDemo/gen/com/example/AndroidDemo/Manifest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AndroidDemo/src/com/example/AndroidDemo/MyActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AndroidDemo/gen/com/example/AndroidDemo/R.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AndroidDemo/ant.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AndroidDemo/build.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AndroidDemo/local.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AndroidDemo/res/layout/main.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AndroidDemo/proguard-project.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AndroidDemo/project.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AndroidDemo/res/values/strings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="D:\ideaproj\JavaSE\Day5\src\A.java" afterPath="$PROJECT_DIR$/Day5/src/day5/demo/A.java" />
-      <change type="MOVED" beforePath="D:\ideaproj\JavaSE\Day5\src\B.java" afterPath="$PROJECT_DIR$/Day5/src/day5/demo/B.java" />
-      <change type="MOVED" beforePath="D:\ideaproj\JavaSE\Day5\src\C.java" afterPath="$PROJECT_DIR$/Day5/src/day5/demo/C.java" />
-      <change type="MOVED" beforePath="D:\ideaproj\JavaSE\Day5\src\D.java" afterPath="$PROJECT_DIR$/Day5/src/day5/demo/D.java" />
-      <change type="MOVED" beforePath="D:\ideaproj\JavaSE\Day5\src\E.java" afterPath="$PROJECT_DIR$/Day5/src/day5/demo/E.java" />
-      <change type="MOVED" beforePath="D:\ideaproj\JavaSE\Day5\src\F.java" afterPath="$PROJECT_DIR$/Day5/src/day5/demo/F.java" />
-      <change type="MOVED" beforePath="D:\ideaproj\JavaSE\Day5\src\InterfaceTest.java" afterPath="$PROJECT_DIR$/Day5/src/day5/demo/InterfaceTest.java" />
     </list>
     <list id="57595d99-1a0f-43cb-918d-88f08f85b56f" name="New changelist" comment="" />
     <ignored path="JavaSE.iws" />
@@ -90,7 +96,7 @@
       <file leaf-file-name="MyActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/AndroidDemo/src/com/example/AndroidDemo/MyActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="40" selection-start="567" selection-end="567" vertical-scroll-proportion="0.31811896" vertical-offset="234" max-vertical-offset="1131">
+            <state line="22" column="31" selection-start="613" selection-end="613" vertical-scroll-proportion="0.3582296" vertical-offset="234" max-vertical-offset="1131">
               <folding>
                 <element signature="e#670#884#0" expanded="true" />
                 <element signature="e#873#874#0" expanded="true" />
@@ -722,7 +728,7 @@
       <workItem from="1396055897750" duration="20002000" />
       <workItem from="1396142716746" duration="4721000" />
       <workItem from="1396148297574" duration="14791000" />
-      <workItem from="1397265114752" duration="7189000" />
+      <workItem from="1397265114752" duration="7338000" />
     </task>
     <task id="LOCAL-00001" summary="init.">
       <created>1395557130179</created>
@@ -800,11 +806,15 @@
       <created>1397268695955</created>
       <updated>1397268695955</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="4.11&#10;">
+      <created>1397273107392</created>
+      <updated>1397273107392</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69279000" />
+    <option name="totallyTimeSpent" value="69428000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -1217,7 +1227,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/AndroidDemo/src/com/example/AndroidDemo/MyActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="40" selection-start="567" selection-end="567" vertical-scroll-proportion="0.31811896" vertical-offset="234" max-vertical-offset="1131">
+        <state line="22" column="31" selection-start="613" selection-end="613" vertical-scroll-proportion="0.3582296" vertical-offset="234" max-vertical-offset="1131">
           <folding>
             <element signature="e#670#884#0" expanded="true" />
             <element signature="e#873#874#0" expanded="true" />
