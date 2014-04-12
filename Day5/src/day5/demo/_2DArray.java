@@ -1,10 +1,17 @@
 package day5.demo;
 
 /**
+ * @author teacher
  * Created by Administrator on 14-4-12.
+ * 二维数组。。。
  */
-public class $2DArray {
+public class _2DArray {
 
+    /**
+     * main:
+     * @param args
+     * @since v1.0
+     */
     public static void main(String[] args) {
         int[][] matrix = new int[5][];
         int[] row1 = new int[5];
@@ -23,5 +30,9 @@ public class $2DArray {
             }
         }
         System.out.println(matrix[matrix.length - 1][matrix[matrix.length-1].length - 1]);
+
+        String s = "hello";
+        System.out.println(s);
     }
 }
+
