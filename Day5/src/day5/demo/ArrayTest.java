@@ -43,5 +43,10 @@ public class ArrayTest {
 //        X = 456;
 
 
+        double[] doubles = new double[100];//
+        for (int i = 0; i < doubles.length; i++) {
+            double aDouble = doubles[i];
+            System.out.println(aDouble);
+        }
     }
 }
