@@ -11,29 +11,7 @@
     </shared>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b904d5ac-6305-4cfe-a480-1941584abd28" name="Default" comment="4.11&#10;">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Day6/Day6.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Day6/src/day6/demo/StringTest.java" />
-      <change type="DELETED" beforePath="D:\ideaproj\JavaSE\AndroidDemo\AndroidDemo.iml" afterPath="" />
-      <change type="DELETED" beforePath="D:\ideaproj\JavaSE\AndroidDemo\AndroidManifest.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\ideaproj\JavaSE\AndroidDemo\ant.properties" afterPath="" />
-      <change type="DELETED" beforePath="D:\ideaproj\JavaSE\AndroidDemo\build.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\ideaproj\JavaSE\AndroidDemo\gen\com\example\AndroidDemo\BuildConfig.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\ideaproj\JavaSE\AndroidDemo\gen\com\example\AndroidDemo\Manifest.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\ideaproj\JavaSE\AndroidDemo\gen\com\example\AndroidDemo\R.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\ideaproj\JavaSE\AndroidDemo\local.properties" afterPath="" />
-      <change type="DELETED" beforePath="D:\ideaproj\JavaSE\AndroidDemo\proguard-project.txt" afterPath="" />
-      <change type="DELETED" beforePath="D:\ideaproj\JavaSE\AndroidDemo\project.properties" afterPath="" />
-      <change type="DELETED" beforePath="D:\ideaproj\JavaSE\AndroidDemo\res\drawable-hdpi\ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\ideaproj\JavaSE\AndroidDemo\res\drawable-ldpi\ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\ideaproj\JavaSE\AndroidDemo\res\drawable-mdpi\ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\ideaproj\JavaSE\AndroidDemo\res\drawable-xhdpi\ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\ideaproj\JavaSE\AndroidDemo\res\layout\main.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\ideaproj\JavaSE\AndroidDemo\res\values\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\ideaproj\JavaSE\AndroidDemo\src\com\example\AndroidDemo\MyActivity.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Day5/src/day5/demo/ArrayTest.java" afterPath="$PROJECT_DIR$/Day5/src/day5/demo/ArrayTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+    <list default="true" id="b904d5ac-6305-4cfe-a480-1941584abd28" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="57595d99-1a0f-43cb-918d-88f08f85b56f" name="New changelist" comment="" />
@@ -700,7 +678,7 @@
       <workItem from="1396142716746" duration="4721000" />
       <workItem from="1396148297574" duration="14791000" />
       <workItem from="1397265114752" duration="20132000" />
-      <workItem from="1397351999837" duration="5369000" />
+      <workItem from="1397351999837" duration="5412000" />
     </task>
     <task id="LOCAL-00001" summary="init.">
       <created>1395557130179</created>
@@ -802,11 +780,15 @@
       <created>1397292352884</created>
       <updated>1397292352884</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="4.11&#10;">
+      <created>1397357847246</created>
+      <updated>1397357847246</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87591000" />
+    <option name="totallyTimeSpent" value="87634000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
