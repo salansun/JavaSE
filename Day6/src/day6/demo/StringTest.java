@@ -42,6 +42,33 @@ public class StringTest extends Object {
         System.out.println(String.valueOf(true));
         System.out.println(String.valueOf(100)+100);
         String n = "100";//100?
+        int i = Integer.parseInt(n);
+        System.out.println(Integer.parseInt(n) + 100);
+//        封装类/包裹类
+        int j = 1;
+
+        Integer k = new Integer(0);
+
+        System.out.println(Long.MAX_VALUE);
+        System.out.println(Integer.decode("100") + 100);
+
+        System.out.println(s.replace('o', 'O'));
+        System.out.println(s.replace("hello", "hi"));
+
+        System.out.println(s.toUpperCase());
+        System.out.println(s);
+
+        String s2 = "              hello,    world          !     ";
+        System.out.println(s2.trim());
+        char[] chars = s2.toCharArray();//{' ', ' ',..., 'h', 'e', } ?
+        System.out.println(chars.length);
+
+        String[] strings = s2.split("l");
+        System.out.println(strings.length);//?
+        for (int l = 0; l < strings.length; l++) {
+            String string = strings[l];
+            System.out.println(string);
+        }
     }
 
     @Override
