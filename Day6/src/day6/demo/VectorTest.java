@@ -12,6 +12,8 @@ public class VectorTest {
     public static void main(String[] args) {
         Vector<String> strings = new Vector<>();
 
+        Vector<Integer> ints = new Vector<>();
+ints.add(123456);
         strings.add("hello");
         System.out.println(strings.add("hi"));
 
