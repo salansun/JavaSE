@@ -12,13 +12,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b904d5ac-6305-4cfe-a480-1941584abd28" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/Day2_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Day7/src/day7/demo/E3.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Day7/src/day7/demo/E5.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Day7/src/day7/demo/E6.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Day2/src/Util.java" />
-      <change type="DELETED" beforePath="D:\ideaproj\JavaSE\Day2\src\Test1.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Day7/Day7.iml" afterPath="$PROJECT_DIR$/Day7/Day7.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Day7/src/day7/demo/Shape.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="57595d99-1a0f-43cb-918d-88f08f85b56f" name="New changelist" comment="" />
@@ -101,10 +95,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="E6.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Day7/src/day7/demo/E6.java">
+      <file leaf-file-name="Shape.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Day7/src/day7/demo/Shape.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="54" selection-start="727" selection-end="727" vertical-scroll-proportion="0.84669477" vertical-offset="65" max-vertical-offset="1131">
+            <state line="9" column="9" selection-start="116" selection-end="116" vertical-scroll-proportion="0.20856354" vertical-offset="110" max-vertical-offset="1189">
               <folding />
             </state>
           </provider>
@@ -124,7 +118,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/Day3/src/Japanese.java" />
         <option value="$PROJECT_DIR$/Day3/src/Test.java" />
         <option value="$PROJECT_DIR$/Day3/src/Human.java" />
         <option value="$PROJECT_DIR$/Day3/src/Chinese.java" />
@@ -175,6 +168,7 @@
         <option value="$PROJECT_DIR$/Day7/src/day7/demo/E3.java" />
         <option value="$PROJECT_DIR$/Day7/src/day7/demo/E5.java" />
         <option value="$PROJECT_DIR$/Day7/src/day7/demo/E6.java" />
+        <option value="$PROJECT_DIR$/Day7/src/day7/demo/Shape.java" />
       </list>
     </option>
   </component>
@@ -373,29 +367,7 @@
       <recent name="C:\Users\Administrator\IdeaProjects\JavaSE\Day1\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.E6">
-    <configuration default="false" name="E2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="day7.demo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="day7.demo.E2" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Day7" />
-      <envs />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.Shape">
     <configuration default="false" name="E3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -465,6 +437,28 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="day7.demo.E6" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Day7" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Shape" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="day7.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="day7.demo.Shape" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -713,19 +707,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Android Application.AndroidDemo" />
-      <item index="1" class="java.lang.String" itemvalue="Application.E2" />
-      <item index="2" class="java.lang.String" itemvalue="Application.E3" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Test1" />
-      <item index="4" class="java.lang.String" itemvalue="Application.E5" />
-      <item index="5" class="java.lang.String" itemvalue="Application.E6" />
+      <item index="1" class="java.lang.String" itemvalue="Application.E3" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Test1" />
+      <item index="3" class="java.lang.String" itemvalue="Application.E5" />
+      <item index="4" class="java.lang.String" itemvalue="Application.E6" />
+      <item index="5" class="java.lang.String" itemvalue="Application.Shape" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.E6" />
-        <item index="1" class="java.lang.String" itemvalue="Application.E5" />
-        <item index="2" class="java.lang.String" itemvalue="Application.E3" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Test1" />
-        <item index="4" class="java.lang.String" itemvalue="Application.E2" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Shape" />
+        <item index="1" class="java.lang.String" itemvalue="Application.E6" />
+        <item index="2" class="java.lang.String" itemvalue="Application.E5" />
+        <item index="3" class="java.lang.String" itemvalue="Application.E3" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Test1" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -772,7 +766,7 @@
       <workItem from="1397872604861" duration="85000" />
       <workItem from="1397872691067" duration="3706000" />
       <workItem from="1397876833414" duration="17000" />
-      <workItem from="1397876851434" duration="12135000" />
+      <workItem from="1397876851434" duration="14390000" />
     </task>
     <task id="LOCAL-00001" summary="init.">
       <created>1395557130179</created>
@@ -910,11 +904,15 @@
       <created>1397891447333</created>
       <updated>1397891447333</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="4.11&#10;">
+      <created>1397895132220</created>
+      <updated>1397895132220</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="119849000" />
+    <option name="totallyTimeSpent" value="122104000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -960,7 +958,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21041666" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.41197917" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23541667" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1033,11 +1031,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Day3/src/Human.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="5" selection-start="376" selection-end="376" vertical-scroll-proportion="0.0" vertical-offset="493" max-vertical-offset="1827" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Day3/src/Poly.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="14" selection-start="98" selection-end="98" vertical-scroll-proportion="0.13428281" vertical-offset="0" max-vertical-offset="983" />
@@ -1305,7 +1298,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Day7/src/day7/demo/E6.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="54" selection-start="727" selection-end="727" vertical-scroll-proportion="0.84669477" vertical-offset="65" max-vertical-offset="1131">
+        <state line="20" column="21" selection-start="590" selection-end="612" vertical-scroll-proportion="0.54409003" vertical-offset="0" max-vertical-offset="1131">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day7/src/day7/demo/Shape.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="9" selection-start="116" selection-end="116" vertical-scroll-proportion="0.20856354" vertical-offset="110" max-vertical-offset="1189">
           <folding />
         </state>
       </provider>
