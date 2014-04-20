@@ -21,5 +21,12 @@ public class WriterTest {
             e.printStackTrace();
         }
 //        Closeable
+
+        System.out.println("hello");
+
+//        RandomAccessFile
+//        DataInputStream
+//          DataOutputStream
+//        Ctrl+Alt+U
     }
 }

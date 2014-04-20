@@ -14,12 +14,16 @@ public class InputStreamTest {
 
         InputStream inputStream = null;
         try {
-            System.out.println(1/0);
+//            System.out.println(1/0);
             inputStream = new FileInputStream("Day8/src/day8/demo/InputStreamTest.java");
-            int i;
-            while ((i=inputStream.read()) != -1) {
-                System.out.print((char)i);
-            }
+            System.out.println("available bytes: " + inputStream.available());
+            byte[] bytes = new byte[inputStream.available()];
+            inputStream.read(bytes);
+            System.out.print(new String(bytes));
+//            int i;
+//            while ((i=inputStream.read()) != -1) {
+//                System.out.print((char)i);
+//            }
         } catch (IOException e) {
             e.printStackTrace();
         } finally {
@@ -31,5 +35,6 @@ public class InputStreamTest {
                 e.printStackTrace();
             }
         }
+//        System.err.print("test...");
     }
 }
