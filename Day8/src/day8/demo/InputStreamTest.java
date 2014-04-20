@@ -12,14 +12,24 @@ import java.io.InputStream;
 public class InputStreamTest {
     public static void main(String[] args) {
 
+        InputStream inputStream = null;
         try {
-            InputStream inputStream = new FileInputStream("Day8/src/day8/demo/InputStreamTest.java");
+            System.out.println(1/0);
+            inputStream = new FileInputStream("Day8/src/day8/demo/InputStreamTest.java");
             int i;
             while ((i=inputStream.read()) != -1) {
                 System.out.print((char)i);
             }
         } catch (IOException e) {
             e.printStackTrace();
+        } finally {
+            try {
+                if (inputStream != null) {
+                    inputStream.close();
+                }
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
         }
     }
 }
