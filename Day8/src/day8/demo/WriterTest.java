@@ -26,7 +26,7 @@ public class WriterTest {
 
 //        RandomAccessFile
 //        DataInputStream
-//          DataOutputStream
+//        DataOutputStream
 //        Ctrl+Alt+U
     }
 }
