@@ -11,18 +11,18 @@ public class WriterTest {
         //        read WriterTest.java -> C:/2.java
         try {
             Reader reader = new FileReader("day8/src/day8/demo/WriterTest.java");
-            Writer writer = new FileWriter("c:/2.java");
+            Writer writer = new FileWriter("c:/2new.java");
             int i;
             while ((i = reader.read()) != -1) {
                 writer.write(i);
             }
-            writer.flush();
+//            writer.flush();
         } catch (IOException e) {
             e.printStackTrace();
         }
 //        Closeable
 
-        System.out.println("hello");
+//        System.out.println("hello");
 
 //        RandomAccessFile
 //        DataInputStream

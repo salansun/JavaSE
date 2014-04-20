@@ -11,15 +11,12 @@ public class OutputStreamTest {
 //        read OutputStreamTest.java -> C:/1.java
 
         try {
-//            InputStream inputStream = new FileInputStream("day8/src/day8/demo/OutputStreamTest.java");
-            OutputStream outputStream = new FileOutputStream("c:/1.java");
-//            int i;
-//            while ((i = inputStream.read()) != -1) {
-////                System.out.print((char)i);
-//                outputStream.write(i);
-//            }
-            String s = new Scanner(System.in).nextLine();
-            outputStream.write(s.getBytes());
+            InputStream inputStream = new FileInputStream("day8/src/day8/demo/OutputStreamTest.java");
+            OutputStream outputStream = new FileOutputStream("c:/1new.java");
+            int i;
+            while ((i = inputStream.read()) != -1) {
+                outputStream.write(i);
+            }
         } catch (IOException e) {
             e.printStackTrace();
         }
