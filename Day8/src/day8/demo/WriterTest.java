@@ -16,7 +16,7 @@ public class WriterTest {
             while ((i = reader.read()) != -1) {
                 writer.write(i);
             }
-//            writer.flush();
+            writer.flush();
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -28,5 +28,6 @@ public class WriterTest {
 //        DataInputStream
 //        DataOutputStream
 //        Ctrl+Alt+U
+
     }
 }

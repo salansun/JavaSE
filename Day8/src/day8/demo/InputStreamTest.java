@@ -1,9 +1,6 @@
 package day8.demo;
 
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.IOException;
-import java.io.InputStream;
+import java.io.*;
 
 /**
  * Created by Administrator on 14-4-20.
@@ -36,5 +33,6 @@ public class InputStreamTest {
             }
         }
 //        System.err.print("test...");
+
     }
 }

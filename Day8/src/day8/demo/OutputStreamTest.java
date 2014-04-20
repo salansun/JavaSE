@@ -17,6 +17,7 @@ public class OutputStreamTest {
             while ((i = inputStream.read()) != -1) {
                 outputStream.write(i);
             }
+//            outputStream.flush();//字节的输出流没有提供刷新机制
         } catch (IOException e) {
             e.printStackTrace();
         }
