@@ -34,8 +34,12 @@ public class GetFile {
 
     public static void main(String[] args) throws IOException {
 
-//downloadHTML();
 
+        try {
+            downloadHTML("");
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
 
         BufferedReader bufferedReader = new BufferedReader(new FileReader("c:/1.html"));
         String s;
